@@ -56,14 +56,6 @@ class Motorbike extends Vehicle {
     console.log(
       `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
     );
-
-    
-
-
-  // TODO: Override the printDetails method from the Vehicle class
-  // TODO: The method should call the printDetails method of the parent class
-  // TODO: The method should log the details of the Motorbike
-  // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
 }
 }
 
